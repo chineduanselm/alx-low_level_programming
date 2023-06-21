@@ -5,7 +5,7 @@
  * print_to_98 - prints number up to 98
  * @n: number to start
  */
-void print_to_98(int n);
+void print_to_98(int n)
 {
 	int i;
 
