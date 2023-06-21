@@ -1,28 +1,28 @@
 #include <stdio.h>
 
 /**
- * main - Determines if a number is positive, negative or zero.
- *
- * Return: Always 0 (Success)
- */
+  *main- prints all alphabets
+  *Return: 0 to end main
+  */
 int main(void)
 {
-        int n;
+	char c;
+	char C;
+	char n;
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
-        if (n > 0)
-        {
-                printf("%d is positive\n" , n);
-        }
-        else if (n == 0)
-        {
-                printf("%d is zero\n" , n);
-        }
-        else
-        {
-                printf("%d is negative\n" , n);
-        }
-        return (0);
+	c = 'a';
+	C = 'A';
+	n = '\n';
+	while (c <= 'z')
+	{
+		putchar(c);
+		++c;
+	}
+	while (C <=  'Z')
+	{
+		putchar(C);
+		++C;
+	}
+	putchar(n);
+	return (0);
 }
-
